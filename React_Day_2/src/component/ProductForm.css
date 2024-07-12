@@ -1,0 +1,35 @@
+.new-products {
+    display: flex;
+    /* justify-content: space-between; */
+    flex-wrap: wrap;
+    gap: 1rem;
+    text-align: left;
+  }
+  
+  .new-prod label {
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    display: block;
+  }
+  
+  .new-prod input {
+    font: inherit;
+    padding:1vw 2vw;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    width: 20rem;
+    max-width: 100%;
+  }
+  
+  .new-productbutton {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 0 auto;
+    }
+
+
+    button{
+    text-align: center;
+
+  }
